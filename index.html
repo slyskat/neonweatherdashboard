@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+    <title>Weather App</title>
+</head>
+<body>
+    <div class="weather-container">
+        <!-- Search Bar -->
+         <div class="search-container glass-effect">
+            <input type="text" id="city-input" placeholder="Search City...">
+            <button id="search-btn"><i class="fas fa-search"></i></button>
+         </div>
+
+         <!-- Current Weather -->
+          <div class="current-weather glass-effect">
+            <div class="weather-icon" id="main-icon">⛅</div>
+            <h1 class="temperature" id="temp">24°C</h1>
+            <h2 class="city" id="city">Lagos, NG</h2>
+            <p class="description" id="desc">Partly Cloudy</p>
+            <button id="unit-toggle" class="glass-effect">°C / °F</button>
+          </div>
+
+            <!-- Forecast Cards-->
+          <div class="forecast-container">
+
+          </div>
+    </div>
+
+      <script src="https://kit.fontawesome.com/bd0abd977f.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
